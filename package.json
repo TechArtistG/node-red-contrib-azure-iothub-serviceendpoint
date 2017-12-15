@@ -1,0 +1,37 @@
+{
+  "name": "red-contrib-azure-iothub-serviceendpoint",
+  "version": "1.0.0",
+  "description": "Exposes the full Azure IoT Hub Service SDK to Node-Red",
+  //"main": "azure-iothub-serviceendpoint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rambutan2000/node-red-contrib-azure-iothub-serviceendpoint.git"
+  },
+  "keywords": [
+    "node-red",
+    "azure",
+    "iot"
+  ],
+  "author": "Geordie Moffatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rambutan2000/node-red-contrib-azure-iothub-serviceendpoint/issues"
+  },
+  "homepage": "https://github.com/rambutan2000/node-red-contrib-azure-iothub-serviceendpoint#readme",
+  "node-red" : {
+    "nodes": {
+        "invoke-device-method": "Invoke-Device-Method.js"
+    },
+    "dependencies" :{
+      "azure-iothub" : ">=1.2.2"
+      //"azure-iot-device" : ">=1.2.2",
+      //"azure-iot-device-amqp" : ">=1.2.3",
+      //"azure-iot-http-base" : ">=1.2.2",
+      //"azure-iot-mqtt-base" : ">=1.2.3"
+      
+    }
+}
+}
